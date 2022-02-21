@@ -1,0 +1,58 @@
+[
+  {
+    "hotel": "Географія",
+    "adress": "Ривне, с.Вересневе, ул.7 серпня, 1а",
+    "room": {
+      "room-family": {
+        "rooms": "https://ibb.co/rsSZpBt, https://ibb.co/Jmygy5S, https://ibb.co/4TNXdxp",
+        "price": 1200
+      },
+      "room-standart": {
+        "rooms": "https://ibb.co/xS81zDh, https://ibb.co/4TNXdxp",
+        "price": 600
+      },
+      "room-lux": {
+        "rooms": "https://ibb.co/87YQCtH, https://ibb.co/4TNXdxp",
+        "price": 600
+      }
+    }
+  },
+
+  {
+    "hotel": "Cофия",
+    "adress": "ул. Дубенська, 4 А, Велика Омеляна, Ривненська область",
+    "room": {
+      "room-family": {
+        "rooms": "https://ibb.co/rsSZpBt, https://ibb.co/Jmygy5S, https://ibb.co/4TNXdxp",
+        "price": 1200
+      },
+      "room-standart": {
+        "rooms": "https://ibb.co/xS81zDh, https://ibb.co/4TNXdxp",
+        "price": 600
+      },
+      "room-lux": {
+        "rooms": "https://ibb.co/87YQCtH, https://ibb.co/4TNXdxp",
+        "price": 600
+      }
+    }
+  },
+
+  {
+    "hotel": "Левове серце",
+    "adress": "вулиця Дубенська, 11 А, Велика Омеляна, Ривненська область",
+    "room": {
+      "room-family": {
+        "rooms": "https://ibb.co/rsSZpBt, https://ibb.co/Jmygy5S, https://ibb.co/4TNXdxp",
+        "price": 1200
+      },
+      "room-standart": {
+        "rooms": "https://ibb.co/xS81zDh, https://ibb.co/4TNXdxp",
+        "price": 600
+      },
+      "room-lux": {
+        "rooms": "https://ibb.co/87YQCtH, https://ibb.co/4TNXdxp",
+        "price": 600
+      }
+    }
+  }
+]
