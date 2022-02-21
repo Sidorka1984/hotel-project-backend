@@ -1,58 +1,142 @@
 [
   {
-    "hotel": "Географія",
+    "hotel": "География",
     "adress": "Ривне, с.Вересневе, ул.7 серпня, 1а",
-    "room": {
-      "room-family": {
-        "rooms": "https://ibb.co/rsSZpBt, https://ibb.co/Jmygy5S, https://ibb.co/4TNXdxp",
-        "price": 1200
+    "typeOfRoom": [
+      {
+        "room-family": {
+          "number": 1,
+          "photo": "https://ibb.co/rsSZpBt, https://ibb.co/Jmygy5S, https://ibb.co/4TNXdxp",
+          "price": 1200,
+          "available": false
+        },
+        "room-standart": {
+          "number": 2,
+          "photo": "https://ibb.co/xS81zDh, https://ibb.co/4TNXdxp",
+          "price": 600,
+          "available": false
+        },
+        "room-lux": {
+          "number": 5,
+          "photo": "https://ibb.co/87YQCtH, https://ibb.co/4TNXdxp",
+          "price": 2000,
+          "available": false
+        }
       },
-      "room-standart": {
-        "rooms": "https://ibb.co/xS81zDh, https://ibb.co/4TNXdxp",
-        "price": 600
-      },
-      "room-lux": {
-        "rooms": "https://ibb.co/87YQCtH, https://ibb.co/4TNXdxp",
-        "price": 600
+      {
+        "room-family": {
+          "number": 3,
+          "photo": "https://ibb.co/rsSZpBt, https://ibb.co/Jmygy5S, https://ibb.co/4TNXdxp",
+          "price": 1200,
+          "available": false
+        },
+        "room-standart": {
+          "number": 4,
+          "photo": "https://ibb.co/xS81zDh, https://ibb.co/4TNXdxp",
+          "price": 500,
+          "available": false
+        },
+        "room-lux": {
+          "number": 6,
+          "photo": "https://ibb.co/87YQCtH, https://ibb.co/4TNXdxp",
+          "price": 2600,
+          "available": false
+        }
       }
-    }
+    ]
   },
 
   {
     "hotel": "Cофия",
     "adress": "ул. Дубенська, 4 А, Велика Омеляна, Ривненська область",
-    "room": {
-      "room-family": {
-        "rooms": "https://ibb.co/rsSZpBt, https://ibb.co/Jmygy5S, https://ibb.co/4TNXdxp",
-        "price": 1200
+    "typeOfRoom": [
+      {
+        "room-family": {
+          "number": 1,
+          "photo": "https://ibb.co/rsSZpBt, https://ibb.co/Jmygy5S, https://ibb.co/4TNXdxp",
+          "price": 1200,
+          "available": false
+        },
+        "room-standart": {
+          "number": 2,
+          "photo": "https://ibb.co/xS81zDh, https://ibb.co/4TNXdxp",
+          "price": 700,
+          "available": false
+        },
+        "room-lux": {
+          "number": 5,
+          "photo": "https://ibb.co/87YQCtH, https://ibb.co/4TNXdxp",
+          "price": 2100,
+          "available": false
+        }
       },
-      "room-standart": {
-        "rooms": "https://ibb.co/xS81zDh, https://ibb.co/4TNXdxp",
-        "price": 600
-      },
-      "room-lux": {
-        "rooms": "https://ibb.co/87YQCtH, https://ibb.co/4TNXdxp",
-        "price": 600
+      {
+        "room-family": {
+          "number": 3,
+          "photo": "https://ibb.co/rsSZpBt, https://ibb.co/Jmygy5S, https://ibb.co/4TNXdxp",
+          "price": 1200,
+          "available": false
+        },
+        "room-standart": {
+          "number": 4,
+          "photo": "https://ibb.co/xS81zDh, https://ibb.co/4TNXdxp",
+          "price": 650,
+          "available": false
+        },
+        "room-lux": {
+          "number": 6,
+          "photo": "https://ibb.co/87YQCtH, https://ibb.co/4TNXdxp",
+          "price": 2500,
+          "available": false
+        }
       }
-    }
+    ]
   },
 
   {
     "hotel": "Левове серце",
     "adress": "вулиця Дубенська, 11 А, Велика Омеляна, Ривненська область",
-    "room": {
-      "room-family": {
-        "rooms": "https://ibb.co/rsSZpBt, https://ibb.co/Jmygy5S, https://ibb.co/4TNXdxp",
-        "price": 1200
+    "typeOfRoom": [
+      {
+        "room-family": {
+          "number": 1,
+          "photo": "https://ibb.co/rsSZpBt, https://ibb.co/Jmygy5S, https://ibb.co/4TNXdxp",
+          "price": 1300,
+          "available": false
+        },
+        "room-standart": {
+          "number": 2,
+          "photo": "https://ibb.co/xS81zDh, https://ibb.co/4TNXdxp",
+          "price": 400,
+          "available": false
+        },
+        "room-lux": {
+          "number": 5,
+          "photo": "https://ibb.co/87YQCtH, https://ibb.co/4TNXdxp",
+          "price": 2600,
+          "available": false
+        }
       },
-      "room-standart": {
-        "rooms": "https://ibb.co/xS81zDh, https://ibb.co/4TNXdxp",
-        "price": 600
-      },
-      "room-lux": {
-        "rooms": "https://ibb.co/87YQCtH, https://ibb.co/4TNXdxp",
-        "price": 600
+      {
+        "room-family": {
+          "number": 3,
+          "photo": "https://ibb.co/rsSZpBt, https://ibb.co/Jmygy5S, https://ibb.co/4TNXdxp",
+          "price": 1200,
+          "available": false
+        },
+        "room-standart": {
+          "number": 4,
+          "photo": "https://ibb.co/xS81zDh, https://ibb.co/4TNXdxp",
+          "price": 600,
+          "available": false
+        },
+        "room-lux": {
+          "number": 6,
+          "photo": "https://ibb.co/87YQCtH, https://ibb.co/4TNXdxp",
+          "price": 3000,
+          "available": false
+        }
       }
-    }
+    ]
   }
 ]
