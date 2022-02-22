@@ -5,9 +5,9 @@ require('dotenv').config()
 
 const authRouter = require("./routes/api/auth")
 
-const transactionRouter = require("./routes/api/transaction")
-const hotelRouter = require("./routes/api/hotel")
-const roomRouter = require("./routes/api/room")
+// const transactionRouter = require("./routes/api/transaction")
+// const hotelRouter = require("./routes/api/hotel")
+// const roomRouter = require("./routes/api/room")
 
 const app = express()
 
@@ -20,10 +20,10 @@ app.use(express.json())
 app.use(express.json({ limit: 10000 }))
 
 app.use("/api/v1/auth", authRouter)
-app.use('/api/v1/hotel', hotelRouter)
-app.use('/api/v1/room', roomRouter)
+// app.use('/api/v1/hotel', hotelRouter)
+// app.use('/api/v1/room', roomRouter)
 
-app.use('/api/v1/transaction', transactionRouter)
+// app.use('/api/v1/transaction', transactionRouter)
 
 app.use((req, res) => {
   res.status(404).json({ message: 'Not found' })

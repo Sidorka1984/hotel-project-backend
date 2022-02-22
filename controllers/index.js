@@ -1,11 +1,11 @@
-const transaction = require('./transaction');
+// const transaction = require('./transaction');
 const auth = require("./auth");
 const room = require('./room');
-const hotel = require("./hotels");
+// const hotel = require("./hotels");
 
 module.exports = {
-  transaction,
+  // transaction,
   auth,
   room,
-  hotel
+  // hotel
 }
